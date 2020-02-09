@@ -1,0 +1,146 @@
+{
+  "_id": "5de4e682e071c77b3f9ed6d2",
+  "input": {
+    "visits": {
+      "122515": {
+        "location": {
+          "name": "122515",
+          "lat": 51.533845166666666,
+          "lng": 13.91419566666667
+        },
+        "duration": 10,
+        "load": 1,
+        "type": "COLLECT_MISSING",
+        "priority": 100,
+        "demand": 1
+      }
+    },
+    "fleet": {
+      "cf319908-6581-4bd6-91c9-eeea0620da49": {
+        "capacity": 35,
+        "type": [
+          "COLLECT_BATTERY",
+          "COLLECT_BROKEN",
+          "COLLECT_MISSING",
+          "COLLECT_NO_SIGNAL",
+          "COLLECT_RECALL"
+        ],
+        "start-location": "START_LOCATION_cf319908-6581-4bd6-91c9-eeea0620da49",
+        "end-location": "END_LOCATION_cf319908-6581-4bd6-91c9-eeea0620da49",
+        "shift-start": 1575282296,
+        "shift-end": 1575324056
+      }
+    },
+    "options": {
+      "polylines": true,
+      "minVisitsPerVehicle": null,
+      "minVehicles": null,
+      "shortestDistance": null,
+      "maxVisitLateness": null,
+      "maxVehicleOvertime": null,
+      "time_format": "number"
+    },
+    "network": {
+      "122515": {
+        "name": "122515",
+        "lat": 51.533845166666666,
+        "lng": 13.91419566666667,
+        "address": null,
+        "_id": "122515"
+      }
+    },
+    "unserved": {
+      "127245": "The lat/lng is too far from the rest of the visits; likely a geocoding error?"
+    }
+  },
+  "opts": {
+    "traffic": 1,
+    "polylines": true,
+    "minVisitsPerVehicle": null,
+    "minVehicles": null,
+    "shortestDistance": null,
+    "maxVisitLateness": null,
+    "maxVehicleOvertime": null,
+    "time_format": "number",
+    "problem": "vrp"
+  },
+  "_user": "5d5a647c880b0c765af7a0a7",
+  "id": "k3oaeusf828",
+  "status": "finished",
+  "createdAt": "2019-12-02T10:25:06.399Z",
+  "visits": 57,
+  "fleet": 2,
+  "region": "europe",
+  "requestId": "49a71bb4-1332-4459-8466-682690ea2694",
+  "apiVersion": "production",
+  "__v": 0,
+  "eligibleTime": "2019-12-02T10:25:06.539Z",
+  "lastWorkedAt": "2019-12-02T10:25:12.540Z",
+  "finished_at": "2019-12-02T10:25:12.512Z",
+  "output": {
+    "num_late_visits": 0,
+    "total_distance": 402.89950000000005,
+    "distances": {
+      "cf319908-6581-4bd6-91c9-eeea0620da49": 349.72790000000003,
+      "1fc7fe21-d00b-40ba-b98d-46532dca3139": 53.1716
+    },
+    "polylines": {
+      "cf319908-6581-4bd6-91c9-eeea0620da49": [
+      ]
+    },
+    "pl_precision": 6,
+    "status": "success",
+    "total_working_time": 872,
+    "solution": {
+      "cf319908-6581-4bd6-91c9-eeea0620da49": [
+        {
+          "distance": 0,
+          "arrival_time": 1575282296,
+          "location_name": "START_LOCATION_cf319908-6581-4bd6-91c9-eeea0620da49",
+          "location_id": "START_LOCATION_cf319908-6581-4bd6-91c9-eeea0620da49"
+        }
+      ]
+    },
+    "unserved": {
+      "127245": "The lat/lng is too far from the rest of the visits; likely a geocoding error?"
+    },
+    "num_unserved": 19,
+    "total_break_time": 0,
+    "vehicle_overtime": {
+      "cf319908-6581-4bd6-91c9-eeea0620da49": 0,
+      "1fc7fe21-d00b-40ba-b98d-46532dca3139": 0
+    },
+    "total_vehicle_overtime": 0,
+    "total_visit_lateness": 0,
+    "total_idle_time": 0,
+    "total_travel_time": 483
+  },
+  "timing": {
+    "startedProcessingAt": "2019-12-02T10:25:06.610Z",
+    "finishedProcessingAt": "2019-12-02T10:25:12.555Z"
+  },
+  "apiMinorVersion": 0,
+  "apiMajorVersion": 1,
+  "fetchedCount": 1,
+  "unserved": {
+    "8b63a0610853fff": {
+      "geohash": "8b63a0610853fff",
+      "duration": 10,
+      "occupancy": 1,
+      "type": "COLLECT_MISSING",
+      "priority": 100,
+      "name": "250234",
+      "y": 52.566265,
+      "x": 13.525212,
+      "potential": 2.0,
+      "ops": "",
+      "agent": 0,
+      "distance": 0,
+      "load": 0,
+      "active": 0
+    }
+  },
+  "solution": {
+    "68f69d19-671c-4533-aad9-97c0d843162f": {}
+  }
+}
